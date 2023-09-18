@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    /*border: 1px solid rgb(168, 163, 163);*/
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    height: 9000px;
+}
+
+#header{
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:50px;
+    background-color: rgb(32, 30, 24);
+}
+
+#logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin-right: 60px;
+    
+}
+
+#header-img{
+    width: 100px;
+    height: 100px;
+}
+
+#header p {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    height: auto;
+    padding: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#home{
+    color:rgb(240, 197, 9);
+}
+
+
+
+
+
+
+
+
+main{
+    width: 100%;
+    padding-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.parent-one{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#first-pic{
+    width: 320px;
+    height: 650px;
+}
+    
+
+.parent-two{
+    margin-top: 60px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-section img{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.text{
+    margin-left: 30PX;
+    max-width:900px;
+}
+.text h1{
+    margin-bottom: 50px;
+    font-size: 150px;
+}
+
+#finest{
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#vvid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main #video{
+    align-items: center;
+}
