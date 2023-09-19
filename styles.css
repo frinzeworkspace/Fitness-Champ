@@ -9,7 +9,7 @@
 body{
     background-color: rgb(0, 0, 0);
     color: azure;
-    height: 9000px;
+    height: auto;
 }
 
 #header{
@@ -69,16 +69,13 @@ a{
 
 
 
-
-
-
-
 main{
     width: 100%;
     padding-top: 115px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -97,17 +94,22 @@ main{
     width: 320px;
     height: 650px;
 }
-    
+
+
+
+
+
+
+
 
 .parent-two{
     margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 
 .image-section{
     display: flex;
@@ -119,8 +121,6 @@ main{
     width: 100%;
     height: 500px;
 }
-
-
 
 .text{
     margin-left: 30PX;
@@ -138,22 +138,76 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-#vvid{
+#parent-three{
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-}
-
-main #video{
+    justify-content: center;
     align-items: center;
 }
+
+#why-gif{
+    width: 800px;
+    height: 500px;
+}
+
+.gif-only{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#why-text{
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.video-section{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 100px;
+}
+
+.video-section p{
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.parent-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation h1{
+    font-size: 100px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form input{
+    margin-bottom: 10px;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+footer{
+    background-color: rgb(33, 31, 31);
+    height: 150px;
+    margin-top: 100px;
+}
+
+
+
+
+
