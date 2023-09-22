@@ -3,7 +3,11 @@
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    /*border: 1px solid rgb(168, 163, 163);*/
+    /* border: 1px solid rgb(194, 27, 27);  */
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -19,7 +23,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left:50px;
+    padding:0 50px;
     background-color: rgb(32, 30, 24);
 }
 
@@ -29,15 +33,15 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    gap: 10px;
 }
 
 #nav-bar{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 10px;
     gap: 10px;
-    margin-right: 60px;
     
 }
 
@@ -48,7 +52,6 @@ body{
 
 #header p {
     color: white;
-    margin: 10px;
     padding: 5px;
     font-size: 25px;
     font-weight: bold;
@@ -71,7 +74,7 @@ a{
 
 main{
     width: 100%;
-    padding-top: 115px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,14 +83,13 @@ main{
 }
 
 .parent-one{
-    margin-top: 60px;
-    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-
+    gap: 80px;
+    padding: 150px;
+    margin-bottom: 120px;
 }
 
 #first-pic{
@@ -95,26 +97,37 @@ main{
     height: 650px;
 }
 
+.text{
+    padding: 30px;
+}
 
+.text h1{
+    margin-bottom: 50px;
+    font-size: 150px;
+}
 
-
+.text p{
+    max-width: 900px;
+}
 
 
 
 
 .parent-two{
-    margin-top: 60px;
-    margin-bottom: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100 px;
+    padding: 100px 0;
+    margin-bottom: 100px;
 }
 
 .image-section{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20px 0 ;
 }
 
 .image-section img{
@@ -122,13 +135,8 @@ main{
     height: 500px;
 }
 
-.text{
-    margin-left: 30PX;
-    max-width:900px;
-}
-.text h1{
-    margin-bottom: 50px;
-    font-size: 150px;
+.images-text{
+
 }
 
 #finest{
@@ -138,11 +146,18 @@ main{
 
 
 
-#parent-three{
+
+
+
+
+
+.gif-only{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    margin-bottom: 100px;
 }
 
 #why-gif{
@@ -150,17 +165,28 @@ main{
     height: 500px;
 }
 
-.gif-only{
-    margin-bottom: 100px;
+#why-text{
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#parent-three{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#why-text{
-    margin-top: 120px;
-    font-size: 70px;
 }
 
 .video-section{
@@ -176,11 +202,22 @@ main{
     max-width: 300px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .parent-four{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 500px;
 }
 
 .motivation h1{
@@ -192,13 +229,30 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid white;
+    padding: 40px;
+}
+
+#form h1{
+    font-size: 30px;
 }
 #form input{
     margin-bottom: 10px;
 }
 
-#email{
+#name,#gender, #email{
     margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+#submit{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-image:  linear-gradient(rgb(191, 194, 43), rgb(221, 209, 44)) ;
 }
 
 footer{
